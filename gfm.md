@@ -113,6 +113,42 @@ This spec does not define how the checkbox elements are interacted with: in prac
 
 # Extension: Strikethrough
 
+GFM enables the  `strikethrough`  extension, where an additional emphasis type is available.
+
+Strikethrough text is any text wrapped in a matching pair of one or two tildes (`~`).
+
+[Example 491](https://github.github.com/gfm/#example-491)
+
+```markdown
+~~Hi~~ Hello, ~there~ world!
+```
+
+~~Hi~~ Hello, ~there~ world!
+
+As with regular emphasis delimiters, a new paragraph will cause strikethrough parsing to cease:
+
+[Example 492](https://github.github.com/gfm/#example-492)
+
+```markdown
+This ~~has a
+
+new paragraph~~.
+```
+
+This ~~has a
+
+new paragraph~~.
+
+Three or more tildes do not create a strikethrough:
+
+[Example 493](https://github.github.com/gfm/#example-493)
+
+```markdown
+This will ~~~not~~~ strike.
+```
+
+This will ~~~not~~~ strike.
+
 # Extension: Autolinks
 
 # Extension: Disallowed Raw HTML
