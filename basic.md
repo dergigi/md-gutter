@@ -15,7 +15,7 @@
     - [Code](#code)
 
 **Note:** This document is itself written using Markdown; you
-can [see the source for it by adding '.text' to the URL](/projects/markdown/syntax.text).
+can see the source for it by viewing the raw [basic.md](https://raw.githubusercontent.com/dergigi/md-gutter/refs/heads/master/basic.md) file.
 
 ----
 
