@@ -3,7 +3,11 @@ Various extensions introduced by GitHub Flavored Markdown: https://github.github
 - [Extension: Tables](#extension-tables)
   - [Creating a table](#creating-a-table)
   - [Formatting content within your table](#formatting-content-within-your-table)
-  - [Further reading](#further-reading)
+- [Extension: Task List Items](#extension-task-list-items)
+- [Extension: Strikethrough](#extension-strikethrough)
+- [Extension: Autolinks](#extension-autolinks)
+- [Extension: Disallowed Raw HTML](#extension-disallowed-raw-html)
+- [Further reading](#further-reading)
 
 # Extension: Tables
 
