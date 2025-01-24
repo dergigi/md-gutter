@@ -69,6 +69,30 @@ To include a pipe `|` as content within your cell, use a `\` before the pipe:
 
 ![Screenshot of a Markdown table as rendered on {% data variables.product.github %} showing how pipes, which normally close cells, are shown when prefaced by a backslash.](https://github.com/github/docs/raw/main/assets/images/help/writing/table-escaped-character-rendered.png)
 
-## Further reading
+# Extension: Task List Items
+
+# Extension: Strikethrough
+
+# Extension: Autolinks
+
+# Extension: Disallowed Raw HTML
+
+GFM enables the  `tagfilter`  extension, where the following HTML tags will be filtered when rendering HTML output:
+
+- `<title>`
+- `<textarea>`
+- `<style>`
+- `<xmp>`
+- `<iframe>`
+- `<noembed>`
+- `<noframes>`
+- `<script>`
+- `<plaintext>`
+
+Filtering is done by replacing the leading  `<`  with the entity  `&lt;`. These tags are chosen in particular as they change how HTML is interpreted in a way unique to them (i.e. nested HTML is interpreted differently), and this is usually undesireable in the context of other rendered Markdown content.
+
+All other HTML tags are left untouched.
+
+# Further reading
 
 * [GitHub Flavored Markdown Spec](https://github.github.com/gfm/)
