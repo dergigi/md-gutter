@@ -282,9 +282,33 @@ after the link text's closing square bracket. Inside the parentheses,
 put the URL where you want the link to point, along with an *optional*
 title for the link, surrounded in quotes. For example:
 
-This is [an example](http://example.com/) inline link.
+```
+This is [an example](http://example.com/ "Example Title") inline link.
+```
+
+This is [an example](http://example.com/ "Example Title") inline link.
+
+```
+[This link](http://example.net/) has no title attribute.
+```
 
 [This link](http://example.net/) has no title attribute.
+
+Reference-style links use a second set of square brackets, inside which you place a label of your choosing to identify the link:
+
+```
+This is [an example][id] reference-style link.
+```
+
+This is [an example][id] reference-style link.
+
+Then, anywhere in the document, you define your link label like this, on a line by itself:
+
+```
+[id]: http://example.com/  "Optional Title Here"
+```
+
+[id]: http://example.com/  "Optional Title Here"
 
 ### Emphasis
 
