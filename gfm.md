@@ -1,10 +1,11 @@
+Various extensions introduced by GitHub Flavored Markdown: https://github.github.com/gfm/
 
-- [Tables](#tables)
+- [Extension: Tables](#extension-tables)
   - [Creating a table](#creating-a-table)
   - [Formatting content within your table](#formatting-content-within-your-table)
   - [Further reading](#further-reading)
 
-# Tables
+# Extension: Tables
 
 ## Creating a table
 
