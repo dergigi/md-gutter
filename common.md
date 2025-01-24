@@ -7,7 +7,7 @@ Syntax supported by CommonMark: https://spec.commonmark.org/current/
 
 ### Reference-style Links
 
-Reference-style links are a special kind of link that make URLs easier to display and read in Markdown. Reference-style links are constructed in two parts: the part you keep inline with your text and the part you store somewhere else in the file to keep the text easy to read.
+[Reference-style links](https://github.com/mattcone/markdown-guide/blob/master/_basic-syntax/links.md) are a special kind of link that make URLs easier to display and read in Markdown. Reference-style links are constructed in two parts: the part you keep inline with your text and the part you store somewhere else in the file to keep the text easy to read.
 
 #### Formatting the First Part of the Link
 
